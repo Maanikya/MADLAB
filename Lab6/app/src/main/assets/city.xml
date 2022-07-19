@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<contents>
+    <cities>
+        <cname>Mangalore</cname>
+        <latitude>12.295</latitude>
+        <longitude>76.639</longitude>
+        <Temp>56</Temp>
+        <humidity>90%</humidity>
+    </cities>
+    <cities>
+        <cname>Udupi</cname>
+        <latitude>54.165</latitude>
+        <longitude>88.965</longitude>
+        <Temp>35</Temp>
+        <humidity>75%</humidity>
+    </cities>
+    <cities>
+        <cname>Shimoga</cname>
+        <latitude>33.333</latitude>
+        <longitude>66.666</longitude>
+        <Temp>34</Temp>
+        <humidity>95%</humidity>
+    </cities>
+</contents>
