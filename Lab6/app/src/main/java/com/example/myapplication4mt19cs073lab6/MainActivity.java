@@ -25,8 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView xml_contents, json_contents;
     Button parse_json, parse_xml;
-
-    String cname, latit, longig, temp, humid;
+    String cname, latit, longig, temp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
