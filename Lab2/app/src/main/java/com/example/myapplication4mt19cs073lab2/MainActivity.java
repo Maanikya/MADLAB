@@ -46,9 +46,7 @@ public class MainActivity extends AppCompatActivity {
 
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                e1.setText("2");
-            }
+            public void onClick(View view) { e1.setText("2"); }
         });
 
         b3.setOnClickListener(new View.OnClickListener() {

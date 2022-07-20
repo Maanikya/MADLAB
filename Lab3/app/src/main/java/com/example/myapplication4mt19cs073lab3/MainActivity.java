@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     Pattern pattern;
     Matcher matcher;
 
-    private static final String REG = "((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{6,20})"    ;
+    private static final String REG = "((?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%]).{6,20})";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -35,13 +35,13 @@ public class MainActivity2 extends AppCompatActivity {
                 entered_passwd_sigin = passwd_signin.getText().toString();
 
                 if(entered_username_sigin.equals(registerd_username)&&(entered_passwd_sigin.equals(registered_passwd))) {
-                    Toast.makeText(MainActivity2.this, "Success", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity2.this, "Login Success", Toast.LENGTH_LONG).show();
                     System.out.println("\nValid Username and Password. Sign In Successful.\n");
 
                 }
 
                 else {
-                    Toast.makeText(MainActivity2.this, "Invalid Credentials", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(MainActivity2.this, "Invalid Credentials", Toast.LENGTH_LONG).show();
                 }
             }
         });
