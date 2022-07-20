@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void run() {
             count.setText("" + i);
-            handler.postDelayed(runnable, 1000);
+            handler.postDelayed(runnable, 500);
             i++;
         }
     };
